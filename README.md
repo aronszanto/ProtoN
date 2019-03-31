@@ -1,7 +1,7 @@
 # ProtoN
 **Protocol: Nimble**
 
-*Nicholas Boucher		Aron Szanto*
+*Aron Szanto		Nicholas Boucher*
 
 ## Introduction
 We seek to develop a system that enables space-efficient wire protocol communication with trivial developer effort. This work is specifically targeted at web developers creating services that would traditionally use XML or JSON to serve data. Our system will be built by extending the Protocol Buffer model created by Google to automatically serialize arbitrary data into a bytestring comprising concatenated, appropriately-typed key-value pairs.
